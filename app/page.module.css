@@ -1,0 +1,145 @@
+.main {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  border: 1px solid var(--color-border);
+  border-bottom: none;
+}
+
+.timeHeader {
+  padding: 2px;
+  text-align: center;
+}
+.timeHeader,
+.daysHeader {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+.days,
+.daysHeader {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+/* .header {
+  border-bottom: 1px solid var(--color-border);
+} */
+
+.days,
+.time {
+  border-bottom: 1px solid var(--color-border);
+}
+.days {
+  padding: 5px 0;
+}
+
+.weekDaysHeader {
+  padding: 2px 14px;
+  text-align: center;
+}
+.time,
+.weekDays {
+  border-right: 1px solid var(--color-border);
+  padding: 5px;
+}
+.weekDays:last-child {
+  border-right: none;
+}
+.time {
+  text-align: center;
+}
+
+.figure {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 10px 15px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.imgHolder {
+  width: 15%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.level {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.dot {
+  padding: 1px 10px;
+  margin-right: 3px;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+.info {
+  border-radius: 5px;
+  color: #eee;
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 0 5px;
+}
+
+.theme {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  margin: 5px 0 10px;
+}
+.textContent {
+  font-weight: 600;
+  color: #000;
+  margin-top: 10px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.personModal {
+  align-items: flex-start;
+  padding: 10px 0;
+  gap: 20px;
+}
+.personModal .imgHolder {
+  width: 30%;
+}
+
+.description {
+  padding: 10px 0;
+}
+
+.levelModal {
+  margin-top: 20px;
+}
