@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Sample preview ![Clipboard01](https://github.com/yuchormanski/Schedule-calendar-NextJS/assets/693307/37bfa1fc-f1dd-43f4-8ce6-a1c29e3459c5)
+
+
 ## Getting Started
 
 First, run the development server:
