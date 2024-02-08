@@ -24,7 +24,7 @@ export const data = [
         title: "Present perfect vs Present ",
         interval: "09:00 - 11:00",
         name: "Lora",
-        grade: "B1",
+        grade: "C1",
         gradeText: "Начинаещи",
         description:
           "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascet",
@@ -111,7 +111,7 @@ export const data = [
         title: "Present perfect vs Present ",
         interval: "09:00 - 11:00",
         name: "Lora",
-        grade: "B1",
+        grade: "C1",
         gradeText: "Начинаещи",
         description:
           "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascet",
@@ -120,7 +120,7 @@ export const data = [
         title: "Present perfect vs Present ",
         interval: "09:00 - 11:00",
         name: "Lora",
-        grade: "B1",
+        grade: "C1",
         gradeText: "Начинаещи",
         description:
           "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascet",

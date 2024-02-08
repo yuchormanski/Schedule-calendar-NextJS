@@ -17,9 +17,9 @@ export default function Home() {
 
   function styling(g) {
     let col = "";
-    if (g.includes("A")) col = "green";
+    if (g.includes("A")) col = "#09bf00";
     else if (g.includes("B")) col = "#ff9703";
-    else if (g.includes("C")) col = "blue";
+    else if (g.includes("C")) col = "#1095d3";
 
     return {
       backgroundColor: col,
